@@ -1,0 +1,21 @@
+.ContainerPage-Title {
+  width: 100%;
+}
+.ContainerPage-Form {
+  width: 70%;
+  text-align: start;
+}
+
+.comment {
+  resize: none;
+}
+
+.ContainerPage-Form button {
+  font-size: 1.4em;
+}
+
+.alertPosition {
+  position: absolute;
+  bottom: 5%;
+  left: 49%;
+}

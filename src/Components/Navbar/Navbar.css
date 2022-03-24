@@ -1,0 +1,26 @@
+.Navb {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.897);
+  width: 45%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.Navb-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+
+.isActive {
+  text-decoration: none;
+  color: inherit;
+  transform: scale(1.2);
+}
+
+.notActive {
+  text-decoration: none;
+  color: inherit;
+}

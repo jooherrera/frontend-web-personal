@@ -1,0 +1,48 @@
+.WorkCard {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(187, 187, 187, 0.418);
+  width: 40%;
+  height: 40%;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.WorkCard-Img {
+  width: 80%;
+  height: 50%;
+}
+.WorkCard-Img a {
+  width: 100%;
+  height: 100%;
+}
+
+.WorkCard-Img img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.WorkCard-Img:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.WorkCard-Title {
+  /* font-size: calc(1rem + 1.7vw); */
+  font-size: 2.2em;
+}
+
+.WorkCard-Logos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.WorkCard-Logo_img {
+  width: 2vw;
+}

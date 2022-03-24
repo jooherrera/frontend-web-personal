@@ -1,0 +1,38 @@
+.Info {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(207, 207, 207);
+}
+
+.Info-Title {
+  font-weight: 600;
+}
+
+.Info-Social {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.Info-Social span {
+  filter: invert(90%);
+}
+
+.Info-Links {
+  font-size: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.Info span {
+  cursor: pointer;
+}
+
+.Info span:hover {
+  transform: scale(1.1);
+}

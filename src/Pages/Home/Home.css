@@ -1,0 +1,60 @@
+/* Specific CSS for 0px <= width <= 1200 */
+
+.HomeUI {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../public/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.HomeUI .container-fluid {
+  display: flex;
+  /* background-color: red; */
+}
+
+.item1 {
+  flex: 1;
+  /* background-color: rgba(0, 0, 255, 0.24); */
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item2 {
+  flex: 2;
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-color: rgba(0, 128, 0, 0.308); */
+}
+.item3 {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+  /* background-color: rgba(238, 130, 238, 0.349); */
+}
+
+.ContainerPage {
+  width: 90%;
+  height: 70%;
+  border-radius: 20px;
+  color: aliceblue;
+  background-color: rgba(131, 129, 129, 0.301);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: overlay;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
