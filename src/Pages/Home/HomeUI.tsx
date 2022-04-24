@@ -1,4 +1,4 @@
-import { Progress } from '@chakra-ui/react'
+import { Progress, Stack, Text } from '@chakra-ui/react'
 import { useContext } from 'react'
 import { Outlet } from 'react-router-dom'
 import { InfoUI } from '../../Components/Info/InfoUI'
@@ -16,7 +16,14 @@ export const HomeUI = () => {
           <ErrorUI />
         </>
       )}
-      {state?.fetching && <Progress size="xs" isIndeterminate />}
+      {state?.fetching && (
+        <>
+          <Stack textAlign="center">
+            <Text> Cargando ... </Text>
+            <Progress size="xs" isIndeterminate />
+          </Stack>
+        </>
+      )}
 
       {state?.success && (
         <div className="HomeUI">
