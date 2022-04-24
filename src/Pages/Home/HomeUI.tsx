@@ -1,3 +1,4 @@
+import { Progress } from '@chakra-ui/react'
 import { useContext } from 'react'
 import { Outlet } from 'react-router-dom'
 import { InfoUI } from '../../Components/Info/InfoUI'
@@ -15,7 +16,8 @@ export const HomeUI = () => {
           <ErrorUI />
         </>
       )}
-      {state?.fetching && <> CARGANDO</>}
+      {state?.fetching && <Progress size="xs" isIndeterminate />}
+
       {state?.success && (
         <div className="HomeUI">
           <div className="container-fluid">
